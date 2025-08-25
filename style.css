@@ -1,0 +1,40 @@
+body {
+  margin: 20px;
+  background-color: gray;
+}
+
+h1 {
+  text-align: center; /*Stles all h1 statements*/
+  color: #333;
+}
+/*Styles the div elements*/
+.box {
+  background-color: white;
+  border: 2px solid #666;
+  margin: 20px 0;   /* The space outside */
+  padding: 15px;    /* The space inside */
+}
+/*STyles the button*/
+button {
+  background-color: #008cba;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;   /* alternate row color */
+}
+/*ID selector*/
+#main-title {
+  text-align: center;
+  color:blueviolet;
+  text-transform: uppercase;
+}
+/*class selector*/
+.intro {
+  color: darkblue;
+  font-weight: bold;
+}
